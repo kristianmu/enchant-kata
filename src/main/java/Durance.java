@@ -8,7 +8,7 @@ public class Durance {
     }
 
     public void enchant() {
-        throw new UnsupportedOperationException();
+        magicBook.enchant(weapon);
     }
 
     public String describeWeapon() {
