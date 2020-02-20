@@ -12,7 +12,7 @@ public class Durance {
     }
 
     public String describeWeapon() {
-        throw new UnsupportedOperationException();
+        return weapon.stats();
     }
 }
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DuranceShould" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-20T09:23:29" hostname="Kristian.local" time="0.118">
+  <properties/>
+  <testcase name="describe_a_non_enchanted_weapon" classname="DuranceShould" time="0.118"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

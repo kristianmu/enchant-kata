@@ -13,8 +13,9 @@ public class DescribeWeaponFeature {
         Durance durance = new Durance(weapon, magicBook);
 
         durance.enchant();
+        String weaponDescription = durance.describeWeapon();
 
-        assertThat(durance.describeWeapon()).isEqualTo("Inferno Dagger of the Nooblet\n" +
+        assertThat(weaponDescription).isEqualTo("Inferno Dagger of the Nooblet\n" +
                 "5 - 10 attack damage\n" +
                 "1.2 attack speed\n" +
                 "+5 fire damage\n");
